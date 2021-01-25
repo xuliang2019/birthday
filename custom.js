@@ -3,7 +3,6 @@ $(function () {
     config.texts.forEach(function (item) {
         let p = document.createElement("p");
         p.style.color = "black";
-        p.style.fontFamily = "Avenir Next";
         p.innerHTML = item;
         if (config.imgs && config.imgs[item]) {
             let img = document.createElement("img");
