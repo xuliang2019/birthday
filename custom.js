@@ -8,6 +8,7 @@ $(function () {
         if (config.imgs && config.imgs[item]) {
             let img = document.createElement("img");
             img.src = config.imgs[item];
+            img.setAttribute("class", 'text-img');
             p.appendChild(img);
         }
         dom.appendChild(p);
